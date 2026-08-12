@@ -1,7 +1,7 @@
 // creating , input, output and updating an Array
 
 package Array;
-import java.util.*;
+import java.util.Scanner;
 
 public class ArrayCC {
     public static void main(String[] args) {
