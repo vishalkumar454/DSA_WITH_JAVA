@@ -2,10 +2,12 @@ package Array;
 
 public class ArrayReverse {
     
+	// 1st way
+	
     public static void reverse(int[] arr){
         
         int start = 0, last = arr.length - 1;
-
+        
         while (start < last) {
             
             int temp = arr[last];
@@ -17,6 +19,7 @@ public class ArrayReverse {
         }
     }
     
+    // 2nd way
     public static int[] reverseArray(int[] arr) {
     	int lastIndex = arr.length-1;
 
