@@ -1,4 +1,4 @@
-package Array;
+gpackage Array;
 
 class LinearSearch {
 
