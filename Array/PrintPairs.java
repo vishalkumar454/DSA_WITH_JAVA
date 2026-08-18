@@ -23,7 +23,6 @@ public class PrintPairs {
 
     public static void main(String[] args) {
         int[] arr = {2,4,6,8,10};
-//        PrintPair(arr);
         
         int count = pairArray(arr);
         System.out.println("totalPairs = " + count);
