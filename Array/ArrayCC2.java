@@ -30,7 +30,7 @@ class ArrayCC2 {
         
         update(marks , nonChangale);
         
-        System.err.println( " ----  "+nonChangale + "   non changable");
+        System.err.println( " ------  "+nonChangale + "   non changable");
         
         for (int index = 0; index < marks.length; index++) {
             System.out.print(marks[index] + " ");
