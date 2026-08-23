@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class RemoveElementOnIndex {
 	public static int[] removeElement(int element, int[] arr) {

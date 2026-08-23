@@ -1,6 +1,6 @@
 // creating , input, output and updating an Array
 
-package Array;
+package array;
 import java.util.Scanner;
 
 public class ArrayCC {
