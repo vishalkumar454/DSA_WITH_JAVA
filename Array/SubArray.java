@@ -14,6 +14,8 @@ public class SubArray {
 		for (int i = 0; i < arr.length; i++) {
 
 			for (int j = i; j < arr.length; j++) {
+				
+				sum = 0;
 
 				for (int k = i; k <= j; k++) {
 
@@ -24,12 +26,8 @@ public class SubArray {
 				
 				if(sum > max) {
 					max = sum;
-					sum = 0;
 				}else if(sum < min) {
 					min = sum;
-					sum = 0;
-				}else {
-					sum = 0;
 				}
 				
 				System.out.println("max = " + max + "  min = "+ min);
