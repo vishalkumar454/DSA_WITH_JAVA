@@ -26,6 +26,7 @@ public class PrintPairs {
         
         int count = pairArray(arr);
         System.out.println("totalPairs = " + count);
+        
 
     }
     
