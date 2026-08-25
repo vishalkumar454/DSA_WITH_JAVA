@@ -33,13 +33,14 @@ public class MaxSubArraySum {
 	
 	public static void kadanes(int arr[]) {
 		int currSum = 0;
-		int max = Integer.MIN_VALUE;
+		int max = arr[0];
+		int min = arr[0];
 		
 		for (int i = 0; i < arr.length; i++) {
 			currSum += arr[i];
 			
-			if (currSum < 0) {
-				currSum = 0;
+			if (currSum < min) {
+				min = currSum;
 			}else if(max < currSum) {
 				max = currSum;
 			}
@@ -48,12 +49,18 @@ public class MaxSubArraySum {
 		}
 		
 		System.out.println("maximum sum = " + max);
+		System.out.println("manimum sum = " + min);
 	}
 	
 	public static void main(String[] args) {
 		int arr[] = {1,-2,6,-1,3};
 		int arr1[] = {-2, -3, 4, -1, -2, 1, 5, -3};
-		kadanes(arr);
+		int arr2[] = {-1,-3,-4*2,-5,-6-7};
+		
+		for (int i = 0; i < arr2.length; i++) {
+			System.out.print(arr2[i] + " ");
+		}
+		kadanes(arr2);
 		
 	}
 }
