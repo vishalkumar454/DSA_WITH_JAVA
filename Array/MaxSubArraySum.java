@@ -49,6 +49,7 @@ public class MaxSubArraySum {
 		}
 		
 		System.out.println("maximum sum = " + max);
+		System.out.println();
 		System.out.println("manimum sum = " + min);
 	}
 	
